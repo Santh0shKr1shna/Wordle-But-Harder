@@ -17,7 +17,7 @@ app.get('/word', (req, res) => {
         url: 'https://random-words5.p.rapidapi.com/getMultipleRandom',
         params: {count: '5', wordLength: '5'},
         headers: {
-            'X-RapidAPI-Key': 'f3c8f9a4a5msh38fb60b4fb2c1b3p1aa0bejsn80b957889f33',
+            'X-RapidAPI-Key': '',
             'X-RapidAPI-Host': 'random-words5.p.rapidapi.com'
         }
     }
